@@ -1,0 +1,220 @@
+*{padding: 0px;
+margin-top: 0px;}
+
+*{
+    transition: all .2x;
+}
+
+body{
+background: url(https://st2.depositphotos.com/5710812/8734/i/950/depositphotos_87343006-stock-photo-grey-glitter-sparkle-defocused-rays.jpg);
+    }
+
+.inner-header{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 34%;
+    background: #FF7C00;
+    border-radius: 5px;
+ 
+    
+}
+.inner-header-2{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 65%;
+    background: orange;
+     border-radius: 5px;
+
+    
+}
+
+.header{
+    display:flex;
+    margin-bottom: 15px;
+    justify-content: space-between; 
+}
+
+
+@media only screen and (min-width: 950px){
+    .inner-header{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 34%;
+    background: red;
+    border-radius: 5px;
+
+}
+    
+}
+
+
+@media only screen and (max-width: 600px){
+        .inner-header{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 100%;
+    background: green;
+    border-radius: 5px;
+
+    
+}
+    
+.inner-header-2{
+    margin-top: px;
+    height:130px;
+    flex-basis: 0%;
+    background: none;
+    border-radius: 5px;
+
+}    
+}
+    
+    
+    
+.content{
+    width: 100%;
+    background: green;
+    height: 430px;
+    margin-bottom: 10px;
+     border-radius: 5px;
+
+}
+
+
+@media only screen and (max-width: 950px){
+    
+    .content{
+    width: 100%;
+    background: red;
+    height: 390px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   }        
+}
+    
+@media only screen and (max-width: 600px){
+      .content{
+    width: 100%;
+    background: purple;
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+ }
+    }
+    
+
+
+
+.inner-footer{
+    height:200px;
+    width:30%;
+    background: blue;
+    border-radius: 5px;
+  ;
+    
+}
+
+.inner-footer1{
+    height:200px;
+    width:33%;
+    background: brown;
+    border-radius: 5px;
+ ;
+    
+}
+
+.inner-footer2{
+    height:200px;
+    width:33%;
+    background: blue;
+    border-radius: 5px;
+  ;
+    
+}
+
+.inner-footer3{
+    height:200px;
+    width:33%;
+    background: purple;
+    border-radius: 5px;
+  ;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+    
+    @media only screen and (max-width: 950px){
+       .inner-footer1{
+    height:200px;
+    width:50%;
+    background: green;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    margin-right: 5px;
+    
+}
+
+.inner-footer2{
+    height:200px;
+    width:0%;
+    background: ;
+    border-radius: 5px;
+   ;
+    
+}
+
+.inner-footer3{
+    height:200px;
+    width:50%;
+    background: blue;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    }
+        
+       
+    
+    @media only screen and (max-width: 600px){
+     
+    .inner-footer1{
+    height:460px;
+    width:100%;
+    background: red;
+   ;
+    
+}
+
+.inner-footer2{
+    height:none;
+    width:0%;
+    background: ;    
+}
+
+        
+.inner-footer3{
+    height:420px;
+    width:0%;
+    background: red;
+   
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+        
+    }
+    
